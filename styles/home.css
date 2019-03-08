@@ -870,5 +870,10 @@ footer .redes-sociales img {
   footer .logo {
     width: 250px;
   }
+  .navegacion-bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 /*# sourceMappingURL=home.css.map */
