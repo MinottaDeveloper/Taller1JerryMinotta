@@ -622,6 +622,12 @@ body a:hover, html a:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .tabla-programas img {
@@ -847,6 +853,15 @@ footer .redes-sociales img {
     width: 80%;
     height: 80%;
     margin-left: 30px;
+  }
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+  .hamburguesa {
+    width: 100%;
+  }
+  .hamburguesa__menu {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=home.css.map */
