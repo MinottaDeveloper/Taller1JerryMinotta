@@ -3,7 +3,6 @@
   src: url("Montserrat-Light.ttf");
 }
 
-/*
 ::-webkit-scrollbar {
   z-index: 999;
   position: fixed;
@@ -17,13 +16,12 @@
           box-shadow: inset 0 0 5px grey;
 }
 
-
+/* Handle */
 ::-webkit-scrollbar-thumb {
   z-index: 999;
   position: fixed;
   background: #007ACC;
 }
-*/
 
 body, html {
   margin: 0px;
