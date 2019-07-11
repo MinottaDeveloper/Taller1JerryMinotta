@@ -91,11 +91,11 @@ body a:hover, html a:hover {
       -ms-flex-direction: row;
           flex-direction: row;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .logo {
-  width: 350px;
+  width: 300px;
 }
 
 .navegacion-bar {
@@ -164,6 +164,7 @@ body a:hover, html a:hover {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  margin-left: 80px;
 }
 
 .identificador a {
@@ -216,7 +217,7 @@ body a:hover, html a:hover {
   padding: 16px;
   color: white;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 40px;
   -webkit-transition: 0.6s ease;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
@@ -240,12 +241,12 @@ body a:hover, html a:hover {
 /* Caption text */
 .text {
   color: white;
-  font-size: 20px;
+  font-size: 15px;
   padding: 10px;
   background-color: rgba(0, 0, 0, 0.781);
   position: absolute;
   bottom: 4px;
-  width: 100%;
+  width: 98.5%;
   text-align: center;
 }
 
@@ -303,6 +304,7 @@ body a:hover, html a:hover {
 
 /*------------------------------------------------*/
 .noticias {
+  font-size: 15px;
   text-align: center;
 }
 
@@ -403,6 +405,7 @@ body a:hover, html a:hover {
 }
 
 .columnas-twitter {
+  font-size: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -675,7 +678,7 @@ footer .logo {
 }
 
 footer .columnas-footer {
-  padding-left: 100px;
+  padding-left: 70px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
