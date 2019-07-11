@@ -84,36 +84,6 @@ function windowsLoad(globalEvent) {
   botonEnviar.addEventListener("click", quitNewsletter);
   botonCerrar.addEventListener("click", quitNewsletter);
 
-  //--------------------RESPONSIVE-----------------------------------------
-  
-  /*var menu ={};
-  menu.logo = document.querySelector(".logo img");
-  menu.nav = document.querySelector(".servicios");
-  menu.boton = document.querySelector(".hamburguesa__icono");
-
-  var seccion = {};
-  seccion.logoPrin = document.querySelector(".logo");
-  seccion.logoSecon = document.querySelector(".hamburguesa__logo");
-  seccion.menuPrin = document.querySelector(".navegacion-bar");
-  seccion.menuSecon = document.querySelector(".hamburguesa__menu");
-  resizeCont();
-  function resizeCont() {
-  
-    if($(window).width() < 720){
-      seccion.logoSecon.appendChild(menu.logo);
-      seccion.menuSecon.appendChild(menu.nav);
-    }else{
-      seccion.logoPrin.appendChild(menu.logo);
-      seccion.menuPrin.appendChild(menu.nav);}
-  }
-  $(window).resize(resizeCont);
-
-  menu.boton.addEventListener("click", function(){
-
-    $(".hamburguesa__menu").toggle("slow");
-   
-  });*/
-//---------------------------------------------------
 
 
 var menu ={};
@@ -150,5 +120,10 @@ menu.boton.addEventListener("click", function(){
  
 });
 //--------------------------------------------------
+
+$(document).ready(function(){
+  $(".owl-carousel").owlCarousel();
+});
+
 }
 window.addEventListener("load", windowsLoad);

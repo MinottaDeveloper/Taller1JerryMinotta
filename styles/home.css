@@ -798,6 +798,10 @@ footer .redes-sociales img {
   overflow: hidden;
 }
 
+.owl-stage-outer {
+  color: white;
+}
+
 @media (max-width: 720px) {
   .hamburguesa {
     display: block;
