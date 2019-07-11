@@ -893,5 +893,8 @@ footer .redes-sociales img {
     display: -ms-flexbox;
     display: flex;
   }
+  .redes_info {
+    display: none;
+  }
 }
 /*# sourceMappingURL=home.css.map */
