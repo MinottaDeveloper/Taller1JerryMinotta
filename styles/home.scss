@@ -232,7 +232,6 @@ li{
   background-color: rgba(0, 0, 0, 0.781);
   position: absolute;
   bottom: 4px;
-  width: 98.5%;
   text-align: center;
 }
 
@@ -739,5 +738,8 @@ footer{
     display: none;
   }
 
+  .prev, .next {
+    font-size: 20px;
+  }
 
 }

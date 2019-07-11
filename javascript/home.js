@@ -60,7 +60,7 @@ function windowsLoad(globalEvent) {
       slideIndex = 1;
     }
   }
-  setInterval(showSlides, 3000); // cambiar imagen cada 3 segundos
+  setInterval(showSlides, 5000); // cambiar imagen cada 3 segundos
   //-------------------------------------------------------------------
   var newsletter = document.querySelector(".newsletter");
   var boton = document.querySelectorAll("#solicitarInfo");
