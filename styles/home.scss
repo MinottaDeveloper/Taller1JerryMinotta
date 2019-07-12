@@ -777,4 +777,22 @@ padding: 30px;
     font-size: 20px;
   }
 
+
+  .slideshow-container {  
+
+    .mySlides{
+      margin-bottom: -100px;
+    }
+
+    img{
+      width:  100%;
+      height: auto;
+    }
+    
+    .text{
+      height: 55px;
+      padding-top: 11px;
+    }
+
+  }
 }

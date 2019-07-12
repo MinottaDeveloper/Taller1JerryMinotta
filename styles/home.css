@@ -945,5 +945,16 @@ footer .redes-sociales img {
   .prev, .next {
     font-size: 20px;
   }
+  .slideshow-container .mySlides {
+    margin-bottom: -100px;
+  }
+  .slideshow-container img {
+    width: 100%;
+    height: auto;
+  }
+  .slideshow-container .text {
+    height: 55px;
+    padding-top: 11px;
+  }
 }
 /*# sourceMappingURL=home.css.map */
