@@ -675,6 +675,11 @@ padding: 30px;
     line-height:80px;
     text-align:center;
     z-index:999;
+
+    img{
+      width: 95%;
+      height: auto;
+    }
   }
   
 @media (max-width:720px){
@@ -811,8 +816,13 @@ padding: 30px;
   } 
   
   .btn-whatsapp{   
-    right:20px;
-    bottom:15px;    
+    right:-1px;
+    bottom:-10px;
+    
+    img{
+      width: 70%;
+      height: auto;
+    }    
   }
 
   

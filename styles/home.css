@@ -859,6 +859,11 @@ footer .redes-sociales img {
   z-index: 999;
 }
 
+.btn-whatsapp img {
+  width: 95%;
+  height: auto;
+}
+
 @media (max-width: 720px) {
   .hamburguesa {
     display: block;
@@ -971,8 +976,12 @@ footer .redes-sociales img {
     padding-top: 11px;
   }
   .btn-whatsapp {
-    right: 20px;
-    bottom: 15px;
+    right: -1px;
+    bottom: -10px;
+  }
+  .btn-whatsapp img {
+    width: 70%;
+    height: auto;
   }
 }
 /*# sourceMappingURL=home.css.map */
