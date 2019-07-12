@@ -623,7 +623,8 @@ text-align: center;
 background: $color-ppal;
 color: white;
 margin: 0;
-padding-bottom: 30px;
+padding: 30px;
+
 }
 
 .redes_info{
@@ -654,6 +655,12 @@ padding-bottom: 30px;
 
   .owl-stage-outer{
     color: white;
+
+    
+      img{
+        width: 50%;
+      }
+    
   }
   
 @media (max-width:720px){
