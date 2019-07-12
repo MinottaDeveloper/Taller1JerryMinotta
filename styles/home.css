@@ -81,6 +81,17 @@ body a:hover, html a:hover {
   background-color: #007ACC;
 }
 
+.grupo_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 1000px;
+}
+
 .encabezado {
   background-color: #070741;
   display: -webkit-box;
@@ -92,6 +103,9 @@ body a:hover, html a:hover {
           flex-direction: row;
   color: #ffffff;
   font-size: 15px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .logo {
@@ -164,7 +178,7 @@ body a:hover, html a:hover {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  margin-left: 80px;
+  margin-right: 20px;
 }
 
 .identificador a {
@@ -661,14 +675,30 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
   background: #070741;
   color: white;
   padding: 20px;
   text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 0;
+}
+
+footer .container-footer {
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
 }
 
 footer .logo {
@@ -761,6 +791,14 @@ footer .redes-sociales img {
   width: 50px;
   height: 50px;
   margin-right: 10px;
+}
+
+.footer_ley {
+  text-align: center;
+  background: #070741;
+  color: white;
+  margin: 0;
+  padding-bottom: 30px;
 }
 
 .redes_info {

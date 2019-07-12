@@ -91,6 +91,11 @@ li{
   }
 }
 
+.grupo_header{
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+}
 
 .encabezado{
   background-color: $color-ppal;
@@ -98,6 +103,7 @@ li{
   flex-direction: row;
   color: $color-font-ppal;
   font-size: $text-size-ppal;
+  justify-content: space-between;
 }
 
 .logo{
@@ -160,7 +166,8 @@ li{
   align-content: center;
   align-items: center;
   text-align: center;
-  margin-left: 80px;
+  margin-right: 20px;
+ 
 
   ul{
     list-style-type: none;
@@ -530,12 +537,20 @@ li{
 
 footer{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   background: $color-ppal;
   color: white;
   padding: 20px; 
   text-align: center;
+  justify-content: center;
+  padding-bottom: 0;
   
+  .container-footer{
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+  }
+
   .logo{
     padding-left: 50px;
     width: 400px;
@@ -600,6 +615,14 @@ footer{
       margin-right: 10px;
     }
   }
+}
+
+.footer_ley{
+text-align: center;
+background: $color-ppal;
+color: white;
+margin: 0;
+padding-bottom: 30px;
 }
 
 .redes_info{
