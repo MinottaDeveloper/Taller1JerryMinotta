@@ -845,6 +845,20 @@ footer .redes-sociales img {
   width: 50%;
 }
 
+.btn-whatsapp {
+  display: block;
+  width: 70px;
+  height: 70px;
+  color: #fff;
+  position: fixed;
+  right: 40px;
+  bottom: 20px;
+  border-radius: 50%;
+  line-height: 80px;
+  text-align: center;
+  z-index: 999;
+}
+
 @media (max-width: 720px) {
   .hamburguesa {
     display: block;
@@ -955,6 +969,10 @@ footer .redes-sociales img {
   .slideshow-container .text {
     height: 55px;
     padding-top: 11px;
+  }
+  .btn-whatsapp {
+    right: 20px;
+    bottom: 15px;
   }
 }
 /*# sourceMappingURL=home.css.map */
