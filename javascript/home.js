@@ -90,6 +90,7 @@ var menu ={};
 menu.logo = document.querySelector(".logo img");
 menu.nav = document.querySelector(".servicios");
 menu.boton = document.querySelector(".hamburguesa__icono");
+menu.identificador = document.querySelector(".identificador");
 
 var seccion = {};
 seccion.logoPrin = document.querySelector(".logo");
@@ -103,6 +104,7 @@ function resizeCont(event) {
   if(width < 720){
     seccion.logoSecon.appendChild(menu.logo);
     seccion.menuSecon.appendChild(menu.nav);
+    //seccion.menuSecon.appendChild(menu.identificador);
   }else{
     seccion.logoPrin.appendChild(menu.logo);
     seccion.menuPrin.appendChild(menu.nav);}
