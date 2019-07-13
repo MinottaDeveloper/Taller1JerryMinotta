@@ -112,6 +112,10 @@ body a:hover, html a:hover {
   width: 300px;
 }
 
+.logo-background {
+  background: #1d1da1;
+}
+
 .navegacion-bar {
   width: 50%;
   display: -webkit-box;
@@ -131,6 +135,7 @@ body a:hover, html a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-left: 30px;
 }
 
 .navegacion-bar a {

@@ -110,6 +110,10 @@ li{
   width: 300px;
 }
 
+.logo-background{  
+  background: #1d1da1;
+}
+
 .navegacion-bar{
   
   width: 50%;
@@ -119,6 +123,7 @@ li{
   justify-content: initial;
   align-content: center;
   align-items: center;
+  margin-left: 30px;
 
   a{
     text-decoration: none;
