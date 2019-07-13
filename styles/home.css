@@ -89,7 +89,7 @@ body a:hover, html a:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  width: 1000px;
+  width: 1200px;
 }
 
 .encabezado {
@@ -835,6 +835,10 @@ footer .redes-sociales img {
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
   overflow: hidden;
+}
+
+.owl-carousel {
+  margin-top: 20px;
 }
 
 .owl-stage-outer {

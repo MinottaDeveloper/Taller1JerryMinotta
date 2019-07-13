@@ -94,7 +94,7 @@ li{
 .grupo_header{
   display: flex;
   flex-direction: row;
-  width: 1000px;
+  width: 1200px;
 }
 
 .encabezado{
@@ -651,6 +651,10 @@ padding: 30px;
   .hamburguesa__menu {
     transition: all .5s ease;
     overflow: hidden;
+  }
+
+  .owl-carousel{
+    margin-top: 20px;
   }
 
   .owl-stage-outer{
