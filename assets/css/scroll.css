@@ -20,21 +20,21 @@
   will-change: transform, opacity;
 }
 
-
-
+/*
+FOTOS ROTADAS 2 GRADOS
 .inline-photo.is-visible {
   opacity: 1;
   -webkit-transform: rotateZ(-2deg);
           transform: rotateZ(-2deg);
 }
-
-/*
-header {
-  opacity: 0;
-  -webkit-transition: opacity .5s .25s ease-out;
-  transition: opacity .5s .25s ease-out;
-}
 */
+.inline-photo.is-visible {
+  opacity: 1;
+  -webkit-transform: rotateZ(0deg);
+          transform: rotateZ(0deg);
+}
+
+
 
 header.is-visible {
   opacity: 1;
