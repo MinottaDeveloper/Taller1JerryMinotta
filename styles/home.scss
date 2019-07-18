@@ -1,8 +1,8 @@
-$color-ppal: #070741;
+$color-ppal: #2E4F8F;
 $color-sec:#F4F1F1;
 $color-font-ppal: #ffffff;
 $text-size-ppal: 15px;
-$color-azul-sec: #007ACC;
+$color-azul-sec: #0079B4;
 
 @font-face{
   font-family: "montserrat";
@@ -111,7 +111,7 @@ li{
 }
 
 .logo-background{  
-  background: #1d1da1;
+  background: $color-azul-sec;
 }
 
 .navegacion-bar{
@@ -541,6 +541,35 @@ li{
   
 }
 
+.enlaces-min{
+  h1, p{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+  .titulos-enlaces{
+    margin-right: 70px;
+    margin-left: 70px;
+  }
+
+  a{
+    color: black;
+  }
+
+ .links-min{
+   width: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+ }
+
+}
+
 footer{
   display: flex;
   flex-direction: row;
@@ -549,7 +578,6 @@ footer{
   padding: 20px; 
   text-align: center;
   justify-content: center;
-  padding-bottom: 0;
   
   .container-footer{
     order: 0;

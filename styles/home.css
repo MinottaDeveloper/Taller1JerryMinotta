@@ -28,7 +28,7 @@ body a:hover, html a:hover {
   display: none;
   width: 95.5%;
   height: 60px;
-  background: #070741;
+  background: #2E4F8F;
 }
 
 .hamburguesa__logo img {
@@ -61,7 +61,7 @@ body a:hover, html a:hover {
   position: fixed;
   margin-top: 60px;
   width: 95.5%;
-  background-color: #070741;
+  background-color: #2E4F8F;
   color: white;
   z-index: 99;
   -webkit-transition: all .5s ease;
@@ -78,7 +78,7 @@ body a:hover, html a:hover {
 }
 
 .hamburguesa__menu li:hover {
-  background-color: #007ACC;
+  background-color: #0079B4;
 }
 
 .grupo_header {
@@ -93,7 +93,7 @@ body a:hover, html a:hover {
 }
 
 .encabezado {
-  background-color: #070741;
+  background-color: #2E4F8F;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -113,7 +113,7 @@ body a:hover, html a:hover {
 }
 
 .logo-background {
-  background: #1d1da1;
+  background: #0079B4;
 }
 
 .navegacion-bar {
@@ -292,7 +292,7 @@ body a:hover, html a:hover {
 }
 
 .active, .dot:hover {
-  background-color: #070741;
+  background-color: #2E4F8F;
 }
 
 /* Fading animation */
@@ -420,7 +420,7 @@ body a:hover, html a:hover {
 .newsletter .formulario .ingresar-mail .boton {
   margin-top: 20px;
   text-align: center;
-  color: #070741;
+  color: #2E4F8F;
 }
 
 .columnas-twitter {
@@ -484,7 +484,7 @@ body a:hover, html a:hover {
 }
 
 .boton {
-  border: 1px solid #070741;
+  border: 1px solid #2E4F8F;
   padding: 10px;
   border-radius: 5px;
   -webkit-padding-start: 50px;
@@ -508,7 +508,7 @@ body a:hover, html a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: #070741;
+  background: #2E4F8F;
   text-align: center;
 }
 
@@ -677,6 +677,47 @@ body a:hover, html a:hover {
   margin-right: 30px;
 }
 
+.enlaces-min {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.enlaces-min h1, .enlaces-min p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.enlaces-min .titulos-enlaces {
+  margin-right: 70px;
+  margin-left: 70px;
+}
+
+.enlaces-min a {
+  color: black;
+}
+
+.enlaces-min .links-min {
+  width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
 footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -685,14 +726,13 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  background: #070741;
+  background: #2E4F8F;
   color: white;
   padding: 20px;
   text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-bottom: 0;
 }
 
 footer .container-footer {
@@ -801,7 +841,7 @@ footer .redes-sociales img {
 
 .footer_ley {
   text-align: center;
-  background: #070741;
+  background: #2E4F8F;
   color: white;
   margin: 0;
   padding: 30px;
