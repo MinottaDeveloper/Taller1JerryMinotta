@@ -114,10 +114,10 @@ let varia = document.querySelector(".hamburguesa__menu");
 varia.style.height = "0px";
 menu.boton.addEventListener("click", function(){
 
-  if(varia.style.height == "350px"){
+  if(varia.style.height == "300px"){
     varia.style.height = "0px";
   }else{
-    varia.style.height = "350px";
+    varia.style.height = "300px";
   }
  
 });

@@ -27,7 +27,7 @@ body a:hover, html a:hover {
   position: fixed;
   display: none;
   width: 95.5%;
-  height: 60px;
+  height: 55px;
   background: #2E4F8F;
 }
 
@@ -40,14 +40,14 @@ body a:hover, html a:hover {
   z-index: 99;
   position: fixed;
   margin: 10px;
-  margin-right: 20px;
+  margin-right: 10px;
   right: 0;
   top: 0;
   background-image: url("../images/menu.png");
   background-size: contain;
   background-repeat: no-repeat;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
 }
 
 .hamburguesa__menu {
@@ -59,7 +59,7 @@ body a:hover, html a:hover {
       -ms-flex-direction: column;
           flex-direction: column;
   position: fixed;
-  margin-top: 60px;
+  margin-top: 50px;
   width: 95.5%;
   background-color: #2E4F8F;
   color: white;
@@ -281,8 +281,8 @@ body a:hover, html a:hover {
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
-  height: 15px;
-  width: 15px;
+  height: 10px;
+  width: 10px;
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
@@ -969,7 +969,7 @@ footer .redes-sociales img {
     width: 100%;
   }
   footer .enlaces-footer p {
-    margin-top: 50px;
+    margin-top: 20px;
   }
   .text {
     font-size: 10px;
@@ -1031,6 +1031,71 @@ footer .redes-sociales img {
   .btn-whatsapp img {
     width: 70%;
     height: auto;
+  }
+  .enlaces-min {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .enlaces-min .titulos-enlaces {
+    margin-right: 10px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+  }
+  .enlaces-min a {
+    color: black;
+  }
+  .enlaces-min .links-min {
+    width: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .enlaces-min ul {
+    margin: 0;
+  }
+  .footer_ley {
+    padding: 10px;
+    font-size: 50%;
+  }
+  .opciones-iniciales p {
+    margin-top: 0;
+  }
+  .filas-footer .informacion-sedes {
+    margin-bottom: 5px;
+  }
+  html, p, h1, h2, h3, div {
+    font-size: 90%;
+  }
+  footer .redes-sociales img {
+    width: 30px;
+    height: 30px;
+  }
+  .conocer-servicios .servicio h2 {
+    font-size: 80%;
+  }
+  .conocer-servicios .servicio {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .conocer-servicios {
+    margin-bottom: 10px;
   }
 }
 /*# sourceMappingURL=home.css.map */
